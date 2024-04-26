@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar2 from './Navbar2'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import nittanyzookeepers from './nittanyzookeepers.png'
+import './zookeeper.css';
+import Example from './Modal';
+
+
 
 function App() {
+
+  const appStyle = {
+   backgroundColor: "green",
+   minHeight: '100vh', 
+    
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <div style={appStyle}>
+    
+      <Navbar2 />
+      <Example/>
+      
+      
+      <h1 style={{ textAlign: 'center', color: 'blue', fontWeight: 'bold'}}>Welcome to:</h1>
+      
+      <div className='zookeeper'>
+      <img src={nittanyzookeepers} alt="react logo"/>
+      </div>
+      
+
+    </div>
     </div>
   );
 }
 
+
 export default App;
+
