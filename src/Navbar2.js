@@ -21,7 +21,7 @@ function MyNavbar() {
           navbarScroll
         >
           <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="https://plankton-app-irsbu.ondigitalocean.app/">Link</Nav.Link>
+          <Nav.Link href="https://www.google.com/">Link</Nav.Link>
           <NavDropdown title="Link" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action4">
