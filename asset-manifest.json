@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-project2/static/css/main.ee948dff.css",
+    "main.js": "/my-project2/static/js/main.15392ad7.js",
+    "static/media/nittanyzookeepers.png": "/my-project2/static/media/nittanyzookeepers.b2e1372b76b63241d78b.png",
+    "index.html": "/my-project2/index.html",
+    "main.ee948dff.css.map": "/my-project2/static/css/main.ee948dff.css.map",
+    "main.15392ad7.js.map": "/my-project2/static/js/main.15392ad7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee948dff.css",
+    "static/js/main.15392ad7.js"
+  ]
+}
